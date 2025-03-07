@@ -20,6 +20,13 @@ html{
         background-color: #2f27ce;
         color: #eae9fc;
     }
+    
+    .bg-blue-500 {
+        background-color: #3b82f6; /* Lighter blue */
+    }
+    .text-white {
+        color: #000000; /* Black text for light mode */
+    }
 
     .baby-pink {
         background-color: #3a31d8;
@@ -40,7 +47,7 @@ html{
     }
 
     .main-nav li a:hover {
-        color: rgb(254, 175, 210);
+        color: #443dff;
     }
 
     #main-toggle{
@@ -104,6 +111,14 @@ html{
         border: 2px solid #3a31d8;
     }
 
+    .bg-blue-500 {
+    background-color: #1e3a8a; /* Darker blue */
+    }
+    
+    .text-white {
+        color: #ffffff;
+    }
+
     .main-nav {
         background-color: #010104ec;
     }
@@ -113,7 +128,7 @@ html{
     }
 
     .main-nav li a:hover {
-        color: rgb(254, 175, 210);
+        color: #443dff;
     }
 
     #main-toggle{
@@ -255,14 +270,14 @@ button {transition: all var(--global-transition-time) ease-in-out;
 
 /* Background colors */
 .baby-pink{
-    background-color: rgba(253, 129, 187, 0.3);
+    background-color: #3a31d8;
     margin: 20px auto;
     padding: 20px;
     text-align: center;
 }
 
 .baby-pink-light{
-    background-color: rgba(243, 162, 200, 0.3);
+    background-color: #3a31d8;
     margin: 20px auto;
     padding: 20px;
     text-align: center;
@@ -407,7 +422,7 @@ button {transition: all var(--global-transition-time) ease-in-out;
 /* ANIMATIONS AND OTHER BEAUTIES */
 .button-outline:hover, .button-outline:active{
     border: 2px solid  rgba(253, 129, 187, 0.3);
-    background-color: rgba(253, 129, 187, 0.6);
+    background-color: #443dff;
     padding: 10px;
     text-decoration: none;
     border-radius: 5%;
@@ -447,7 +462,7 @@ nav {
 }
 
 .main-nav li a:hover {
-    color: rgb(254, 175, 210);
+    color: #443dff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -756,8 +771,9 @@ footer{
     align-items: center;
 }
 
-.project-button {
+[data-theme="dark"] .project-button a{
     margin-left: auto;
+    color: white;
 }
 /* ---------------------------------- */
 
