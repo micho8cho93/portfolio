@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Review this part and modify it to your liking -->
+    <meta name="description" content="Sample text for portfolio template meta tag">
+    <meta name="keywords" content="Sample text for portfolio template meta tag">
+    <meta name="author" content="Sample text for portfolio template meta tag">
+    <title>My portfolio website</title>
+    <!-- Adding favicon for older and modern browsers,
+        It is best to add favicon to the main folder, 
+        I used an only ico converter for best result,
+        Do not forget to clear you cache to see the changes -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- font for the quote -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <!-- font for the body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <!-- font for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- navigation bar with button pushed to the right side-->
+    <nav class="top-0 padding nav-container">
+        <button 
+            id="theme-toggle-button"
+            class = "ml-auto bg-blue-500 text-white px-4 py-2 rounded"
+            type="button" 
+            data-theme-toggle 
+            aria-label="Light mode"
+            >Light mode</button>
+            <button class="project-button"><a href="portfolio.html" style="text-decoration:none">Projects</a></button>
+    </nav>
+    
+
+    <!-- introduction -->
+    <header class="grid-system-2 w-900 padding">
+        <section class="align-center">
+            <h1 class="medium-spacing"></h1>
+            <h1 class="large">Michel H.</h1>
+        </section>
+        <section class="center align-center">
+            <img class="header-img max-width max-height" src="imgs/teaching.png" alt="profile-picture">
+        </section>
+    </header>
+
+
+    <!-- quote -->
+    <article class="baby-pink">
+        <p class="Oswald bold main-title">"Teaching is just debugging the human brain in real time."</p>
+    </article>
+
+    <!-- about me -->
+    <!-- That about me png is something I've made for fun, it has a purple version too, feel free to use it or change it to anything else. -->
+    <section class="wrapper">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="imgs/profile.png" alt="about-me-logo">
+        </section>
+        <section class="justify align-center">
+            <p class="medium-spacing">About me</p>
+            <p>I'm an educator passionate about project-based learning and using technology to influence learning processes. I regularly 
+                incorporate projects to help students bridge the knowledge gap by applying what they have learned in class into practical learning experiences.</p>
+            <p>After school, I spend my time learning new languages, trying to score goals for my soccer team,
+                and working on coding projects. </p>
+            <p>My website is a showcase of my passions and projects. If you find my profile and projects interesting 
+                and would like to collaborate, then check out my contact information below.
+            </p>
+
+        </section>
+    </section>
+
+    <!-- skills -->
+    <!-- use this to showcase your skills, if you make changes, do not forget to modify the css accordingly -->
+    <section>
+        <h3 class="medium-spacing center padding">Skills</h3>
+    </section>
+    <section class="wrapper">
+        <section class="column">
+            <p class="skills padding-bottom">Programming</p>
+            <section class="skills">
+                <ul class="no-bullet-list no-padding-list-item">
+                    <li>
+                        <p>Python</p>
+                        <span class="progress-bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                        <p>HTML + CSS</p>
+                        <span class="progress-bar"><span class="css"></span></span>
+                    </li>
+                    <li>
+                        <p>C++</p>
+                        <span class="progress-bar"><span class="javascript"></span></span>
+                    </li>
+                    <li>
+                        <p>SQL</p>
+                        <span class="progress-bar"><span class="php"></span></span>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section class="column">
+            <p class="skills padding-bottom">Professional</p>
+            <section class="skills">
+                <ul class="no-bullet-list no-padding-list-item">
+                    <li>
+                        <p>communication</p>
+                        <span class="progress-bar"><span class="comm-adapt"></span></span>
+                    </li>
+                    <li>
+                        <p>team player</p>
+                        <span class="progress-bar"><span class="team-player"></span></span>
+                    </li>
+                    <li>
+                        <p>problem solving</p>
+                        <span class="progress-bar"><span class="problem-solving"></span></span>
+                    </li>
+                    <li>
+                        <p>open-minded</p>
+                        <span class="progress-bar"><span class="open-minded"></span></span>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </section>
+    </section>
+
+    <!-- Projects -->
+    <!-- If you have more projects you are working on at the moment, or just want to show more, double the whole section below without the title and you are good to go -->
+    <section>
+        <h3 class="medium-spacing center padding">Projects</h3>
+    </section>
+    <section class="wrapper">
+        <section class="column card justify flex">
+            <img class="box" src="imgs/python_course.png" alt="project1">
+            <p>Teach Python Fundamentals</p>
+            <p>This course is designed to be used by other educators. 
+                It guides students with no prior python experience through 
+                the most fundamental concepts. I've also included several exercises with varying 
+                degrees of difficulty, so that you can challenge all types of learners.</p>
+        </section>
+        <section class="column card justify flex">
+            <img class="box" src="imgs/python_course.png" alt="project1">
+            <p>Educational AI chatbot</p>
+            <p>This AI chatbot uses OpenAI's API and provides educators with
+                an easy to use and control chatbot to be used and shared with students.
+                The app is currently an MVP with limited functionality.
+                Click more info to learn about upcoming features.</p>
+        </section>
+    </section>
+    <section>
+        <p class="padding-top bottom center"><a href="portfolio.html" class="button-outline">Click here to see all my projects</a></p>
+    </section>
+
+    <!-- contact me -->
+    <!-- Five logo can be in one row, and if it still not enough, you can create another row, buy doubleing the "box-contact" section -->
+    <section id="contact-me" class="grid-system-2 w-900 padding">
+        <section class="margin-auto">
+            <img class="max-width max-height" src="imgs/contact_me.png" alt="contact-me-illustration">
+        </section>
+        <section class="margin-auto align-center">
+            <h1 class="medium-spacing center">Let's get in touch!<span></span></h1>
+            <p class="center">Contact me if you'd like to collaborate, pick my brain or even hire me to build your next idea!</p>
+            <section class="box-contact margin-auto padding-top">
+                <span>
+                    <a href="https://github.com/micho8cho93" target="_blank"><img class="logo" src="assets/github.png" alt=""></a>
+                </span>
+                <span>
+                    <a href="mailto:michelvahonore@gmail.com" target="_blank"><img class="logo" src="assets/email.png" alt=""></a>
+                </span>
+                <span>
+                    <a href="https://www.linkedin.com/in/michel-honore-95a08549/" target="_blank"><img class="logo" src="assets/linkedin.png"
+                            alt=""></a>
+                </span>
+            </section>
+        </section>
+    </section>
+    <!-- footer -->
+    <footer>@micho8cho93 2025</footer>
+</body>
+
+</html>

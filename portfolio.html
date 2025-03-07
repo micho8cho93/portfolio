@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Review this part and modify it to your liking -->
+    <meta name="description" content="Sample text for portfolio template meta tag">
+    <meta name="keywords" content="Sample text for portfolio template meta tag">
+    <meta name="author" content="Sample text for portfolio template meta tag">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- This page benefits from the main css and also from the about-me css, that is why all 3 is linked -->
+    <link rel="stylesheet" type="text/css" href="style-about-me.css">
+    <link rel="stylesheet" type="text/css" href="style-portfolio.css">
+    <!-- font for the quote -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <!-- font for the body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <!-- font for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    
+    <nav class="top-0 padding nav-container">
+        <button 
+            id="theme-toggle-button"
+            class = "ml-auto bg-blue-500 text-white px-4 py-2 rounded"
+            type="button" 
+            data-theme-toggle 
+            aria-label="Light mode"
+            >Light mode</button>
+            <button class="home-button"><a href="index.html" style="text-decoration:none">Home</a></button>
+    </nav>
+    <header class="grid-system-2 w-900 padding">
+        <section class="align-center">
+            <h2 class="large">Projects</h2>
+        </section>
+    </header>
+    
+
+    <!-- Use align center accordingly as it my center vertically the image or the text. Or if you do not want to use it at all, then just delete it -->
+    <!-- project1 -->
+    <section class="grid-system-2 w-900 padding">
+        <section class="justify align-center">
+            <h3 class="medium-spacing padding-top">Python course</h3>
+            <p>This course covers the foundational concepts of Python programming: 
+                variables, expressions, statements, functions, loops, strings, and lists.
+            </p>
+            <p>This course is designed for high school students who are interested in learning
+                computer science and python. The first program is a calculator,
+                then a class attendance counter, and a password validation program.</p>
+            <p>Each of these programs is designed to run in the CLI.
+                Each program comes with 2-3 versions with varying difficulty. Program outline, 
+                instructions, solutions and unit testing are included in the course materials.
+            </p>
+            <p class="center">Links:
+                <span class="center">
+                    <a class="link baby-blue" href="https://github.com/micho8cho93/calculator" target="_blank">Calculator</a>
+                    <span> |</span>
+                    <a class="link baby-blue" href="https://github.com/micho8cho93/counter" target="_blank">Counter</a>
+                    <span> |</span>
+                    <a class="link baby-blue" href="https://github.com/micho8cho93/password-checker" target="_blank">Password Validator</a>
+                </span>
+            </p>
+        </section>
+        <section class="center">
+            <p><a href="project1.html"><img class="max-width" src="imgs/python.png" alt="project1"></a>
+        </section>
+    </section>
+
+    <!-- project2 -->
+    <section class="grid-system-2 w-900 padding">
+        <section class="justify">
+            <h3 class="medium-spacing padding-top">My website</h3>
+            <p>As part of my own learning journey, I decided to dive deeper into web development by creating this website.
+                I figured what better way to showcase my projects and skills than to improve my web dev skills and create a 
+                portfolio website.
+            </p>
+            <p>There are two links below. The first one brings you to my GitHub page for my website, and the second link
+                will show the template that my website is based off of. I've made a fair amount of modifications to the UI, UX,
+                layout, and content to make it my own. Nonetheless, thank you to @iluskaland for the inspiration.
+            </p>
+            <p class="center">Link:
+                <a class="link baby-blue" href="https://www.behance.net/" target="_blank">My Website</a>
+                    <span> |</span>
+                <a class="link baby-blue" href="https://github.com/iluskaland/portfolio-template" target="_blank">Iluskaland Template</a>
+            </p>
+            <p class="padding-top"><a href="project3.html" class="button-outline">More info</a></p>
+        </section>
+        <section class="center">
+            <p><a href="project3.html"><img class="max-width" src="imgs/HTML.png" alt="project3"></a>
+        </section>
+    </section>
+
+    <!-- project3 -->
+    <section class="grid-system-2 w-900 padding">
+        <section class="justify align-center">
+            <h3 class="medium-spacing padding-top">Upcoming projects</h3>
+            <p class="">Educational AI Chatbot:</p>
+            <p>The idea behind this project came from my experience as an educator.
+                This AI chatbot is designed to only assist students by reasoning with students socratically and 
+                never giving students the final answer.
+                <p>Currently, the web app is an MVP with limited functionality, 
+                for the moment you can create an account, login, and chat with the AI.
+                </p><br>
+            <p>YouTube Video Downloader:</p>
+            <p>While the program already functions through the CLI, it isn't as smooth as I'd like it to be.
+                For that reason I'm currently improving the functionality.
+            </p>
+            <p>Updates to come: improved functionality, web app, and downloadable GUI app for mac and windows.
+            </p>
+            <p class="center">Link:
+                <a class="link baby-blue" href="https://m.facebook.com/" target="_blank">Chatbot MVP</a>
+                    <span> |</span>
+                <a class="link baby-blue" href="https://github.com/micho8cho93/python/blob/main/Python/ytDownloader.py" target="_blank">Video Downloader</a>
+            </p>
+        </section>
+        <section class="center padding-top align-center">
+            <p><a href="project2.html"><img class="max-width" src="imgs/Settings 1.png" alt="project2"></a></p>
+        </section>
+    </section>
+
+    <!-- footer -->
+    <footer>@micho8cho93 2025</footer>
+</body>
+
+</html>
