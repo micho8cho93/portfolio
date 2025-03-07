@@ -29,7 +29,7 @@ html{
     }
 
     .baby-pink {
-        background-color: #3a31d8;
+        background-color: #3a31d8 !important;
         color: #eae9fc;
     }
 
@@ -389,13 +389,7 @@ button {transition: all var(--global-transition-time) ease-in-out;
 }
 
 /* I only used button-outline on this project, but you may like the other one more */
-.button-outline{
-    border: 2px solid  rgba(253, 129, 187, 0.3);
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5%;
-    color: black;
-}
+
 
 .link{
     text-decoration: none;
@@ -420,15 +414,7 @@ button {transition: all var(--global-transition-time) ease-in-out;
 /* ---------------------------------- */
 
 /* ANIMATIONS AND OTHER BEAUTIES */
-.button-outline:hover, .button-outline:active{
-    border: 2px solid  rgba(253, 129, 187, 0.3);
-    background-color: #443dff;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5%;
-    color: rgb(255, 255, 255);
-    transition: background-color 1s ease, color 1s ease;
-}
+
 
 
 .progress-bar:hover, .progress-bar:active {
