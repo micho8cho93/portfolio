@@ -21,48 +21,23 @@ html{
         color: #eae9fc;
     }
     
-    .bg-blue-500 {
+    .bg-light-blue {
         background-color: #3b82f6; /* Lighter blue */
     }
-    .text-white {
+    .text-bw {
         color: #000000; /* Black text for light mode */
     }
 
-    .baby-pink {
+    .deep-blue {
         background-color: #3a31d8 !important;
         color: #eae9fc;
     }
 
-    .baby-pink-light {
+    .deep-blue-light {
         background-color: rgba(45, 45, 45, 1);
         border: 2px solid #3a31d8;
     }
 
-    .main-nav {
-        background-color: rgba(45, 45, 45, 1);
-    }
-
-    .main-nav li a {
-        color: #040316;
-    }
-
-    .main-nav li a:hover {
-        color: #443dff;
-    }
-
-    #main-toggle{
-        border: 1px solid rgba(255, 255, 255, 0.6);
-        background-color: rgba(45, 45, 45, 1);
-    }
-    
-    .nav-icon{
-        background-color: rgba(255, 255, 255, 0.6);
-    }
-    
-    .nav-icon::before,
-    .nav-icon::after{
-        background-color: rgba(255, 255, 255, 0.6);
-    }
 
     .button-outline{
         padding: 10px 15px;
@@ -76,6 +51,7 @@ html{
     .button-outline:hover, .button-outline:active{
         border: 2px solid #0600c2;
         background-color: #0600c2;
+        color: white
     }
 
     .card{
@@ -88,12 +64,6 @@ html{
         padding: 2px;
         border-radius: 4px;
         width: 10%;
-    }
-
-    .hobbies{
-        background-color: #eae9fc;
-        border-radius: 100%;
-        padding: 10px;
     }
 
     footer{
@@ -109,47 +79,21 @@ html{
         color: #eae9fc;
     }
 
-    .baby-pink {
+    .deep-blue {
         background-color: #3a31d8;
     }
 
-    .baby-pink-light {
+    .deep-blue-light {
         background-color: rgba(45, 45, 45, 1);
         border: 2px solid #3a31d8;
     }
 
-    .bg-blue-500 {
+    .bg-light-blue {
     background-color: #1e3a8a; /* Darker blue */
     }
     
-    .text-white {
+    .text-bw {
         color: #ffffff;
-    }
-
-    .main-nav {
-        background-color: #010104ec;
-    }
-
-    .main-nav li a {
-        color: #eae9fc;
-    }
-
-    .main-nav li a:hover {
-        color: #443dff;
-    }
-
-    #main-toggle{
-        border: 1px solid rgba(255, 255, 255, 0.6);
-        background-color: rgba(45, 45, 45, 1);
-    }
-    
-    .nav-icon{
-        background-color: rgba(255, 255, 255, 0.6);
-    }
-    
-    .nav-icon::before,
-    .nav-icon::after{
-        background-color: rgba(255, 255, 255, 0.6);
     }
 
     .button-outline{
@@ -176,12 +120,6 @@ html{
         padding: 2px;
         border-radius: 4px;
         width: 10%;
-    }
-
-    .hobbies{
-        background-color: #eae9fc;
-        border-radius: 100%;
-        padding: 10px;
     }
 
     footer{
@@ -235,6 +173,14 @@ button {transition: all var(--global-transition-time) ease-in-out;
     margin: 0px;
 }
 
+.app-title{
+    font-weight: normal;
+    line-height: normal;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin: 0px;
+}
 
 .main-title{
     font-weight: normal;
@@ -247,14 +193,14 @@ button {transition: all var(--global-transition-time) ease-in-out;
 }
 
 /* Background colors */
-.baby-pink{
+.deep-blue{
     background-color: #3a31d8;
     margin: 20px auto;
     padding: 20px;
     text-align: center;
 }
 
-.baby-pink-light{
+.deep-blue-light{
     background-color: #3a31d8;
     margin: 20px auto;
     padding: 20px;
@@ -343,19 +289,8 @@ button {transition: all var(--global-transition-time) ease-in-out;
 /* ANIMATIONS AND OTHER BEAUTIES */
 
 .progress-bar:hover, .progress-bar:active {
-    box-shadow: 5px 5px 5px #cdadcd;
+    box-shadow: 5px 5px 5px #bc7dff;
     transition: box-shadow 1s ease;
-}
-
-/* ---------------------------------- */
-
-/* NAV */
-
-.sticky {
-    position: -webkit-sticky; /* for Safari */
-    position: sticky;
-    top: 0;
-    align-self: flex-start; /* <-- this is the fix */
 }
 
 /* ---------------------------------- */
@@ -401,14 +336,14 @@ footer{
     -webkit-border-radius: 20px;
 }
 
-.html {
+.python {
     width: 90%;
-    animation: html 3s;
+    animation: python 3s;
 }
 
-.css {
+.htmlcss {
     width: 75%;
-    animation: css 3s;
+    animation: htmlcss 3s;
 }
 
 .javascript {
@@ -416,9 +351,9 @@ footer{
     animation: javascript 3s;
 }
 
-.php {
+.sql {
     width: 54%;
-    animation: php 3s;
+    animation: sql 3s;
 }
 
 .comm-adapt {
@@ -441,7 +376,7 @@ footer{
     animation: open-minded 3s;
 }
 
-@keyframes html {
+@keyframes python {
     0% {
         width: 0%;
     }
@@ -450,7 +385,7 @@ footer{
     }
 }
 
-@keyframes css {
+@keyframes htmlcss {
     0% {
         width: 0%;
     }
@@ -468,7 +403,7 @@ footer{
     }
 }
 
-@keyframes php {
+@keyframes sql {
     0% {
         width: 0%;
     }
@@ -543,7 +478,7 @@ footer{
 
 /* RESPONSIVENESS */
 /* Had to pay attention for that window.innerWidth when calculated max-width */
-@media screen and (max-width: 867px){
+@media screen and (max-width: 600px){
     body{
         font-size: 90%;
     }
@@ -616,6 +551,11 @@ footer{
     margin-left: auto;
     color: white;
 }
+
+[data-theme="light"] .project-button a{
+    margin-left: auto;
+    color: white;
+}
 /* ---------------------------------- */
 
 /* wrapper on home page looks better with this @media */
@@ -641,9 +581,10 @@ footer{
 
 
 @media screen and (max-width: 929px) {
-        .baby-pink-light {
+        .deep-blue-light {
             margin-left: 10px;
             margin-right: 10px;
         }
     }
+
 

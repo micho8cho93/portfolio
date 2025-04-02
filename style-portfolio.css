@@ -13,40 +13,14 @@
         color: #eae9fc;
     }
 
-    .baby-pink {
+    .deep-blue {
         background-color: #3a31d8;
         color: #eae9fc;
     }
 
-    .baby-pink-light {
+    .deep-blue-light {
         background-color: rgba(45, 45, 45, 1);
         border: 2px solid #3a31d8;
-    }
-
-    .main-nav {
-        background-color: #fbfbfe;
-    }
-
-    .main-nav li a {
-        color: #040316;
-    }
-
-    .main-nav li a:hover {
-        color: #2f27ce;
-    }
-
-    #main-toggle{
-        border: 1px solid rgba(255, 255, 255, 0.6);
-        background-color: rgba(45, 45, 45, 1);
-    }
-    
-    .nav-icon{
-        background-color: rgba(255, 255, 255, 0.6);
-    }
-    
-    .nav-icon::before,
-    .nav-icon::after{
-        background-color: rgba(255, 255, 255, 0.6);
     }
 
     .button-outline{
@@ -68,12 +42,6 @@
         background-color: #eae9fc;
         padding: 2px;
         border-radius: 4px;
-    }
-
-    .hobbies{
-        background-color: #eae9fc;
-        border-radius: 100%;
-        padding: 10px;
     }
 
     footer{
@@ -93,39 +61,13 @@
         color:#009bfb;
     }
 
-    .baby-pink {
+    .deep-blue {
         background-color: #3a31d8;
     }
 
-    .baby-pink-light {
+    .deep-blue-light {
         background-color: hsla(240, 60%, 1%, 0.925);
         border: 2px solid #3a31d8;
-    }
-
-    .main-nav {
-        background-color: #01010400;
-    }
-
-    .main-nav li a {
-        color: #eae9fc;
-    }
-
-    .main-nav li a:hover {
-        color: #3a31d8;
-    }
-
-    #main-toggle{
-        border: 1px solid rgba(255, 255, 255, 0.6);
-        background-color: #010104ec;
-    }
-    
-    .nav-icon{
-        background-color: #010104ec;
-    }
-    
-    .nav-icon::before,
-    .nav-icon::after{
-        background-color: #010104ec;
     }
 
     .button-outline{
@@ -147,12 +89,6 @@
         background-color: #eae9fc;
         padding: 2px;
         border-radius: 4px;
-    }
-
-    .hobbies{
-        background-color: #eae9fc;
-        border-radius: 100%;
-        padding: 10px;
     }
 
     footer{
@@ -225,24 +161,12 @@
     padding-top: 20px;
 }
 
-.padding-right{
-    padding-right: 20px;
-}
-
 .padding-bottom{
     padding-bottom: 20px;
 }
 
-.padding-left{
-    padding-left: 20px;
-}
-
 .margin-auto{
     margin: auto;
-}
-
-.margin-trbl10{
-    margin: 10px;
 }
 
 /* for sticky bottom button */
@@ -264,6 +188,8 @@
     border-radius: 5%;
     color: black;
 }
+
+
 
 /* I only used button-outline on this project, but you may like the other one more */
 .button-outline{
@@ -303,18 +229,45 @@
     align-items: center;
 }
 
-.home-button {
+[data-theme="dark"] .home-button a{
     margin-left: auto;
+    color: white;
+}
+
+[data-theme="light"] .home-button a{
+    margin-left: auto;
+    color: white;
 }
 /* ---------------------------------- */
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 600px){
     .main-title{
         text-align: center;
     }
 
     .max-width{
         max-width: 450px;
+    }
+
+    .grid-system-2 section {
+        padding: 10px;
+    }
+    
+    h3.medium-spacing {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .justify p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+    
+    .center img {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
     }
 } 
 
