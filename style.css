@@ -65,8 +65,12 @@ html{
     }
 
     .button-outline{
+        padding: 10px 15px;
         border: 2px solid #0600c2;
         color: #040316;
+        text-decoration: none;
+        border-collapse: separate;
+        border-spacing: 10px;
     }
 
     .button-outline:hover, .button-outline:active{
@@ -83,6 +87,7 @@ html{
         background-color: #eae9fc;
         padding: 2px;
         border-radius: 4px;
+        width: 10%;
     }
 
     .hobbies{
@@ -93,6 +98,8 @@ html{
 
     footer{
         color: #040316;
+        text-align: center;
+        padding: 20px 0px;
     }
 }
 
@@ -148,6 +155,10 @@ html{
     .button-outline{
         border: 2px solid #0600c2;
         color: #eae9fc;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-collapse: separate;
+        border-spacing: 10px;
     }
 
     .button-outline:hover, .button-outline:active{
@@ -164,6 +175,7 @@ html{
         background-color: #eae9fc;
         padding: 2px;
         border-radius: 4px;
+        width: 10%;
     }
 
     .hobbies{
@@ -174,6 +186,8 @@ html{
 
     footer{
         color: #eae9fc;
+        text-align: center;
+        padding: 20px 0px;
     }
 }
 
@@ -190,7 +204,7 @@ button {transition: all var(--global-transition-time) ease-in-out;
     background-color: #dddbff;
     border: 0.25rem solid #dddbff;
     }
-    
+
 /*-------------------------------------------*/
 
 
@@ -221,47 +235,11 @@ button {transition: all var(--global-transition-time) ease-in-out;
     margin: 0px;
 }
 
-.medium-spacing-halfsize{
-    font-weight: normal;
-    line-height: normal;
-    font-family: 'Oswald', Arial, sans-serif;
-    font-size: 2rem;
-    letter-spacing: 4px;
-    margin: 0px;
-}
-
-.main-title-large{
-    font-weight: normal;
-    line-height: normal;
-    font-size: 3rem;
-}
 
 .main-title{
     font-weight: normal;
     line-height: normal;
     font-size: 1.5rem;
-}
-
-.small{
-    font-weight: normal;
-    font-size: 0.7rem;
-}
-
-.quote{
-    font-family: 'Covered By Your Grace', cursive, sans-serif;
-    font-size: 1.5em;
-}
-
-.uppercase{
-    text-transform: uppercase;
-}
-
-.italic{
-    font-style: italic;
-}
-
-.bold{
-    font-weight: bold;
 }
 
 .colorful-letter{
@@ -309,12 +287,6 @@ button {transition: all var(--global-transition-time) ease-in-out;
     gap: 1rem;
 }
 
-.grid-system-4{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-}
-
 /* other */
 .max-width{
     max-width: 450px;
@@ -326,10 +298,6 @@ button {transition: all var(--global-transition-time) ease-in-out;
 
 .align-center{
     align-self: center;
-}
-
-.justify-content{
-    justify-content: right;
 }
 
 .justify{
@@ -348,64 +316,23 @@ button {transition: all var(--global-transition-time) ease-in-out;
     padding-top: 20px;
 }
 
-.padding-right{
-    padding-right: 20px;
-}
-
 .padding-bottom{
     padding-bottom: 20px;
-}
-
-.padding-left{
-    padding-left: 20px;
 }
 
 .margin-auto{
     margin: auto;
 }
 
-.margin-trbl10{
-    margin: 10px;
-}
-
 /* for sticky bottom button */
-.flex{
-    display: flex;
-    flex-direction: column;
-}
 
 .bottom{
     align-self: flex-start;
     margin-top: auto;
 }
 
-/* Miscellaneous */
-.button{
-    background-color: rgba(253, 129, 187, 0.3);
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5%;
-    color: black;
-}
-
-/* I only used button-outline on this project, but you may like the other one more */
-
-
-.link{
-    text-decoration: none;
-}
-
-/* I had to double this code, because of the :hover and :active on link above */
-.link-no-scale{
-    text-decoration: none;
-}
-
 .no-padding-list-item{
     padding-left: 0;
-}
-
-.padding-list-10{
-    padding: 10px;
 }
 
 .no-bullet-list{
@@ -415,8 +342,6 @@ button {transition: all var(--global-transition-time) ease-in-out;
 
 /* ANIMATIONS AND OTHER BEAUTIES */
 
-
-
 .progress-bar:hover, .progress-bar:active {
     box-shadow: 5px 5px 5px #cdadcd;
     transition: box-shadow 1s ease;
@@ -425,33 +350,6 @@ button {transition: all var(--global-transition-time) ease-in-out;
 /* ---------------------------------- */
 
 /* NAV */
-nav {
-    margin-bottom: 30px;
-}
-
-.main-nav{
-    background-color: rgb(253, 249, 249);
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    padding: 20px;
-    margin: 0px;
-}
-
-.main-nav li {
-    padding: 5px 10px;
-}
-
-.main-nav li a {
-    color: #000000;
-    text-decoration: none;
-}
-
-.main-nav li a:hover {
-    color: #443dff;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 .sticky {
     position: -webkit-sticky; /* for Safari */
@@ -460,44 +358,6 @@ nav {
     align-self: flex-start; /* <-- this is the fix */
 }
 
-/* Nav-icon */
-.toggle, #drop{
-    display: none;
-}
-
-#main-toggle{
-    border: 1px solid #df36854d;
-    float: right;
-    padding: 20px;
-    /* position: relative; */
-    user-select: none;
-}
-
-.nav-icon{
-    background-color: #df36854d;
-    display: block;
-    height: 3px;
-    width: 10px;
-    position: relative;
-}
-
-.nav-icon::before,
-.nav-icon::after{
-    background-color: #df36854d;
-    content: "";
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-.nav-icon::before{
-    top: 5px;
-}
-
-.nav-icon::after{
-    top: -5px;
-}
 /* ---------------------------------- */
 
 /* FOOTER */
@@ -514,9 +374,6 @@ footer{
 }
 /* ---------------------------------- */
 
-/* ARTICLE */
-/* Everything here is made with general classes. Find them in the GENERAL section */
-/* ---------------------------------- */
 
 /* ABOUT ME */
 /* Everything here is made with general classes. Find them in the GENERAL section */
@@ -678,9 +535,6 @@ footer{
     text-align: center;
 }
 
-.logo{
-    width: 50px;
-}
 /* ---------------------------------- */
 
 /* SPECIAL THANKS */
@@ -688,7 +542,7 @@ footer{
 /* ---------------------------------- */
 
 /* RESPONSIVENESS */
-/* Had to pay attention for that wondow.innerWidth when calculated max-width */
+/* Had to pay attention for that window.innerWidth when calculated max-width */
 @media screen and (max-width: 867px){
     body{
         font-size: 90%;
@@ -748,6 +602,7 @@ footer{
     .logo{
         width: 40px;
     }
+    
 }
 
 /* --  nav bar flexbox organization to position buttons on opposite sides -- */
