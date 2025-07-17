@@ -50,7 +50,7 @@
                 </a>
               </div>
             </h3>
-            <p class="mt-2 text-sm leading-normal">
+            <p class="text-slate-400 mt-2 text-sm leading-normal">
               Teach and develop high school Computer Science curriculum, 
               emphasizing real-world applications and critical problem-solving 
               through languages such as Python, Java, and web technologies. 
@@ -104,7 +104,7 @@
               <div>
                 <a
                   class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-                  href="https://upstatement.com"
+                  href="https://maristaschamberi.com"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -120,7 +120,7 @@
                 </a>
               </div>
             </h3>
-            <p class="mt-2 text-sm leading-normal">
+            <p class="text-slate-400 mt-2 text-sm leading-normal">
               Designed and delivered engaging Robotics and Python lessons 
               for 3rd and 4th of ESO students, fostering hands-on learning 
               and critical thinking. Collaborated with colleagues and used 

@@ -64,7 +64,7 @@
     <li class="mr-5 text-xs">
       <a
         class="block hover:text-slate-200"
-        href="https://github.com"
+        href="https://github.com/micho8cho93"
         target="_blank"
         rel="noreferrer"
       >
@@ -74,7 +74,7 @@
     <li class="mr-5 text-xs">
       <a
         class="block hover:text-slate-200"
-        href="https://linkedin.com"
+        href="https://www.linkedin.com/in/michel-honore-95a08549/"
         target="_blank"
         rel="noreferrer"
       >
@@ -84,7 +84,7 @@
     <li class="mr-5 text-xs">
       <a
         class="block hover:text-slate-200"
-        href="https://gmail.com"
+        href="mailto:michelvahonore@gmail.com"
         target="_blank"
         rel="noreferrer"
       >

@@ -12,52 +12,20 @@
     </h2>
   </div>
   <div>
-    <p class="mb-4">
-      I'm a developer passionate about crafting accessible, pixel-perfect user
-      interfaces that blend thoughtful design with robust engineering. My favorite
-      work lies at the intersection of design and development, creating
-      experiences that not only look great but are meticulously built for
-      performance and usability.
-    </p>
-    <p class="mb-4">
-      Currently, I'm a Computer Science Teacher at{" "}
-      <a
-        class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-        href="https://klaviyo.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Klaviyo
-      </a>
-      , specializing in accessibility. I contribute to the creation and
-      maintenance of UI components that power Klaviyo's frontend, ensuring our
-      platform meets web accessibility standards and best practices to deliver an
-      inclusive user experience.
-    </p>
-    <p class="mb-4">
-      In the past, I've had the opportunity to develop software across a variety
-      of settings — from{" "}
-      <span class="font-medium text-slate-200">advertising agencies</span> and{" "}
-      <span class="font-medium text-slate-200">large corporations</span> to{" "}
-      <span class="font-medium text-slate-200">start-ups</span> and{" "}
-      <span class="font-medium text-slate-200"
-        >small digital product studios</span
-      >. Additionally, I also released a{" "}
-      <a
-        class="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-        href="#"
-        target="_blank"
-        rel="noreferrer"
-      >
-        comprehensive video course
-      </a>{" "}
-      a few years ago, guiding learners through building a web app with the
-      Spotify API.
-    </p>
-    <p>
-      In my spare time, I'm usually climbing, reading, hanging out with my wife
-      and two cats, or running around Hyrule searching for
-      <span class="font-medium text-slate-200">Korok seeds</span>.
-    </p>
+    <p class="text-slate-400 mb-4">
+      I'm an <strong class="text-slate-200">educator</strong> and <strong class="text-slate-200">technologist</strong> passionate about project-based 
+      learning and the transformative role of technology in education.
+      In my teaching practice, I design <strong class="text-slate-200">hands-on, practical experiences</strong> 
+      that help students apply theoretical knowledge through real-world 
+      projects. <br><br>
+      Outside the classroom, I enjoy learning new languages, playing 
+      soccer, and building software projects that explore my interests 
+      in <strong class="text-slate-200">automation</strong>, <strong class="text-slate-200">web development</strong>, and <strong class="text-slate-200">education</strong>. <br><br>
+      This website is a curated showcase of the projects I’ve created—from 
+      a <strong class="text-slate-200">soccer league management system</strong> and a <strong class="text-slate-200">birthday reminder bot</strong> 
+      to a <strong class="text-slate-200">Python course</strong> for high school students. Each project reflects my drive to learn, 
+      teach, and solve real problems through thoughtful design and development. <br><br>
+      If you're interested in collaborating or learning more, feel free to reach 
+      out via the contact links below.
   </div>
 </section>
