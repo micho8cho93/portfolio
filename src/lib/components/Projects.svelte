@@ -90,7 +90,7 @@
             height="48"
             decoding="async"
             class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src="/public/images/soccer_social1.png"
+            src="/images/soccer_social1.png"
           />
         </div>
       </li>
@@ -105,7 +105,7 @@
             <h3>
               <a
                 class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-                href="/public/videos/BirthdayBotVideo.mp4"
+                href="/videos/BirthdayBotVideo.mp4"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Birthday Reminder Bot (opens in a new tab)"
@@ -118,7 +118,7 @@
                   <ExternalLink
                   on:click={() => {
                 showModal = true;
-                videoURL = "/public/videos/BirthdayBotVideo.mp4";
+                videoURL = "/videos/BirthdayBotVideo.mp4";
               }}
                     class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
                   />
@@ -169,7 +169,7 @@
             height="48"
             decoding="async"
             class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src="/public/images/birthday_bot.png"
+            src="/images/birthday_bot.png"
           />
         </div>
         {#if showModal}
@@ -252,7 +252,7 @@
             height="48"
             decoding="async"
             class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src="/public/images/portfoliov2.png"
+            src="/images/portfoliov2.png"
           />
         </div>
       </li>
@@ -321,7 +321,7 @@
             height="48" 
             decoding="async"
             class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src="/public/images/python-course.png"
+            src="/images/python-course.png"
           />
         </div>
       </li>
@@ -391,7 +391,7 @@
             height="48" 
             decoding="async"
             class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src="/public/images/portfoliov1.png"
+            src="/images/portfoliov1.png"
           />
         </div>
       </li>
