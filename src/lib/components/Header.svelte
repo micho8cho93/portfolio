@@ -3,19 +3,15 @@
 </script>
 
 <header
-  class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24"
+  class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-10"
 >
   <div>
     <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
       Michel Honoré
     </h1>
-    <h2 class="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-      Computer Science Teacher & Software Tinkerer
-    </h2>
-    <p class="mt-4 max-w-xs leading-normal">
-      I teach computer science fundamentals and build software products on the side.
-    </p>
-
+    
+    <p class="mt-4 max-w-m leading-normal">
+      Computer Science Teacher & Software Tinkerer    </p>
     <!-- Navigation -->
     <nav class="nav hidden lg:block" aria-label="In-page jump links">
       <ul class="mt-16 w-max">
@@ -84,11 +80,24 @@
                 </div>
         </li>
         <li>
-            
             <div
                   class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
                 >
                   Arduino/C++
+                </div>
+        </li>
+        <li>
+            <div
+                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                >
+                  HTML
+                </div>
+        </li>
+        <li>
+            <div
+                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                >
+                  Tailwind/CSS
                 </div>
         </li>
         </ul>
@@ -137,7 +146,7 @@
             <div
                   class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
                 >
-                  Render
+                  Vercel
                 </div>
         </li>
         <li>
@@ -153,7 +162,23 @@
             <div
                   class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
                 >
-                  Supabase
+                  SQLite
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
+                >
+                  PostgreSQL
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
+                >
+                  Crontab
                 </div>
         </li>
         <li>
@@ -162,14 +187,6 @@
                   class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
                 >
                   Gemini CLI
-                </div>
-        </li>
-        <li>
-            
-            <div
-                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
-                >
-                  Jules Agent
                 </div>
         </li>
         </ul>

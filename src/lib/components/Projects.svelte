@@ -9,7 +9,7 @@
   class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
 >
   <div
-    class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+    class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-indigo-950 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
   >
     <h2
       class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only"
@@ -57,26 +57,40 @@
                 <div
                   class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
                 >
-                  Django
+                  Python
                 </div>
               </li>
               <li class="mr-1.5 mt-2">
                 <div
                   class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
                 >
-                  Tailwind
+                  Tailwind/CSS
                 </div>
               </li>
               <li class="mr-1.5 mt-2">
                 <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
+                >
+                  Django
+                </div>
+              </li>
+              <li class="mr-1.5 mt-2">
+                <div
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
+                >
+                  Gemini CLI
+                </div>
+              </li>
+              <li class="mr-1.5 mt-2">
+                <div
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
                 >
                   Railway
                 </div>
               </li>
               <li class="mr-1.5 mt-2">
                 <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
                 >
                   PostgreSQL
                 </div>
@@ -141,23 +155,23 @@
               </li>
               <li class="mr-1.5 mt-2">
                 <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
                 >
                   Streamlit
                 </div>
               </li>
               <li class="mr-1.5 mt-2">
                 <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
                 >
-                  Render
+                  Crontab
                 </div>
               </li>
               <li class="mr-1.5 mt-2">
                 <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
                 >
-                  Supabase
+                  SQLite
                 </div>
               </li>
             </ul>
@@ -226,21 +240,28 @@
                 <div
                   class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
                 >
+                  Svelte
+                </div>
+              </li>
+              <li class="mr-1.5 mt-2">
+                <div
+                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                >
+                  Tailwind/CSS
+                </div>
+              </li>
+              <li class="mr-1.5 mt-2">
+                <div
+                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                >
                   Sveltekit
                 </div>
               </li>
               <li class="mr-1.5 mt-2">
                 <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
                 >
-                  Tailwind CSS
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  GitHub Pages
+                  Vercel
                 </div>
               </li>
             </ul>
@@ -300,14 +321,14 @@
               </li>
               <li class="mr-1.5 mt-2">
                 <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
                 >
                   Github
                 </div>
               </li>
               <li class="mr-1.5 mt-2">
                 <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
                 >
                   Streamlit
                 </div>
@@ -372,7 +393,7 @@
                 <div
                   class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
                 >
-                  CSS
+                  Tailwind/CSS
                 </div>
               </li>
               <li class="mr-1.5 mt-2">
@@ -396,30 +417,5 @@
         </div>
       </li>
     </ul>
-    <div class="mt-12">
-      <a
-        class="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
-        aria-label="View Full Project Archive"
-        href="/archive"
-      >
-        <span>
-          <span
-            class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none"
-          >
-            View Full Project
-          </span>
-          <span class="whitespace-nowrap">
-            <span
-              class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none"
-            >
-              Archive
-            </span>
-            <ExternalLink
-              class="ml-1 inline-block h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-focus-visible:-translate-y-1 group-focus-visible:translate-x-1 motion-reduce:transition-none"
-            />
-          </span>
-        </span>
-      </a>
-    </div>
   </div>
 </section>

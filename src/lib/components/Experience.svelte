@@ -7,7 +7,7 @@
   class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
 >
   <div
-    class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+    class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-indigo-950 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
   >
     <h2
       class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only"
@@ -27,7 +27,7 @@
           <header
             class="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
           >
-            Aug 2025 — Present
+            July 2025 — Present
           </header>
           <div class="z-10 sm:col-span-6">
             <h3 class="font-medium leading-snug text-slate-200">
@@ -51,22 +51,34 @@
               </div>
             </h3>
             <p class="text-slate-400 mt-2 text-sm leading-normal">
-              Teach and develop high school Computer Science curriculum, 
+              Teach and develop High School Computer Science curriculum, 
               emphasizing real-world applications and critical problem-solving 
-              through languages such as Python, Java, and web technologies. 
-              Partner with colleagues to align instruction with national standards 
+              through languages such as Python. 
+              Partner with colleagues to align instruction with American standards 
               while integrating project-based learning and formative assessments. 
-              Coordinate and lead extracurricular programs, including coding clubs, 
-              robotics competitions, and technology-focused workshops, fostering 
-              student engagement beyond the classroom and promoting a strong STEM 
-              culture within the school community.
+              Coordinate extracurricular programs, including coding clubs 
+              and technology-focused workshops.
             </p>
             <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
               <li class="mr-1.5 mt-2">
                 <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
                 >
                   Project-based learning
+                </div>
+              </li>
+              <li class="mr-1.5 mt-2">
+                <div
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
+                >
+                  CS Principles
+                </div>
+              </li>
+              <li class="mr-1.5 mt-2">
+                <div
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
+                >
+                  Robotics
                 </div>
               </li>
               <li class="mr-1.5 mt-2">
@@ -74,13 +86,6 @@
                   class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
                 >
                   Python
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  Javascript
                 </div>
               </li>
             </ul>
@@ -122,11 +127,9 @@
             </h3>
             <p class="text-slate-400 mt-2 text-sm leading-normal">
               Designed and delivered engaging Robotics and Python lessons 
-              for 3rd and 4th of ESO students, fostering hands-on learning 
-              and critical thinking. Collaborated with colleagues and used 
+              for High School students. Collaborated with colleagues and used 
               platforms like Microsoft Teams to support classroom management, 
-              student feedback, and grading. Developed and implemented project-based 
-              formative assessments to monitor and support ongoing student learning. 
+              student feedback, and grading.
               Initiated and guided student-led projects, including presentations 
               on AI, IoT, and Machine Learning, an Arduino Robotics curriculum, and 
               an Introduction to Python course.
@@ -134,9 +137,16 @@
             <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
               <li class="mr-1.5 mt-2">
                 <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
                 >
                   Project-based learning
+                </div>
+              </li>
+              <li class="mr-1.5 mt-2">
+                <div
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
+                >
+                  Robotics
                 </div>
               </li>
               <li class="mr-1.5 mt-2">
@@ -162,19 +172,21 @@
       <a
         class="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
         aria-label="View Full Résumé"
-        href="/resume.pdf"
+        href='/files/Resume_Teaching_Jul18.pdf'
+        target="_blank"
+        rel="noopener"
       >
         <span>
           <span
-            class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none"
+            class="w-max border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none"
           >
             View Full Résumé
           </span>
             <ExternalLink
-              class="ml-1 inline-block h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-focus-visible:-translate-y-1 group-focus-visible:translate-x-1 motion-reduce:transition-none"
+            class="ml-1 inline-block h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-focus-visible:-translate-y-1 group-focus-visible:translate-x-1 motion-reduce:transition-none"
             />
-          </span>
-      </a>
-    </div>
+        </span>
+        </a>
+  </div>
   </div>
 </section>
