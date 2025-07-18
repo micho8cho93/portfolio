@@ -57,7 +57,158 @@
         </li>
       </ul>
     </nav>
+    <br>
+
+<!-- Skills -->
+    <section class="nav hidden lg:block" aria-label="skillset">
+      <span
+              class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
+            >
+              Programming Languages
+            </span>
+      <ul class="mt-2 flex flex-wrap space-x-1 space-y-1 w-50">
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                >
+                  Python
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                >
+                  JavaScript
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                >
+                  Arduino/C++
+                </div>
+        </li>
+        </ul>
+        <br>
+
+        <span
+              class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
+            >
+              Frameworks & Tools
+            </span>
+        <ul class="mt-2 flex flex-wrap space-x-1 space-y-1 w-50">
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
+                >
+                  Git
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
+                >
+                  GitHub
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
+                >
+                  Streamlit
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
+                >
+                  Django
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
+                >
+                  Render
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
+                >
+                  Railway
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
+                >
+                  Supabase
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
+                >
+                  Gemini CLI
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
+                >
+                  Jules Agent
+                </div>
+        </li>
+        </ul>
+        <br>
+
+        <span
+              class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
+            >
+              Education
+            </span>
+        <ul class="mt-2 flex flex-wrap space-x-1 space-y-1 w-50">
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
+                >
+                  CS Principles
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
+                >
+                  Project-based Learning
+                </div>
+        </li>
+        <li>
+            
+            <div
+                  class="flex items-center rounded-full bg-fuchsia-400/10 px-3 py-1 text-xs font-medium leading-5 text-fuchsia-300"
+                >
+                  Robotics
+                </div>
+        </li>
+      </ul>
+    </section>
   </div>
+
 
   <!-- Social Links -->
   <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
@@ -93,3 +244,4 @@
     </li>
   </ul>
 </header>
+
