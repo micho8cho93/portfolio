@@ -1,11 +1,13 @@
 <script lang="ts">
   export let activeSection: string;
-  import { Github, Linkedin, Mail } from "lucide-svelte";
+  import { Mail } from "lucide-svelte";
+  import { Linkedin } from "lucide-svelte";
+  import { Github } from "lucide-svelte";
 </script>
 
 
 <header
-  class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-10"
+  class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-around "
 >
   <div>
     <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
@@ -13,10 +15,11 @@
     </h1>
     
     <p class="mt-4 max-w-m leading-normal">
-      Computer Science Teacher & Software Tinkerer    </p>
+      Computer Science Teacher & Software Tinkerer
+    </p>
     <!-- Navigation -->
     <nav class="nav hidden lg:block" aria-label="In-page jump links">
-      <ul class="mt-16 w-max">
+      <ul class="mt-8 w-max">
         <li>
           <a
             class="group flex items-center py-3 active"
@@ -245,41 +248,43 @@
         </li>
       </ul>
     </section>
-  </div>
+  
 
 
   <!-- Social Links -->
-  <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
-    <li class="mr-5 text-xs">
-      <a
-        class="block hover:text-slate-100"
-        href="https://github.com/micho8cho93"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Github class="h-6 w-6" />
-      </a>
-    </li>
-    <li class="mr-5 text-xs">
-      <a
-        class="block hover:text-slate-100"
-        href="https://www.linkedin.com/in/michel-honore-95a08549/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Linkedin class="h-6 w-6" />
-      </a>
-    </li>
-    <li class="mr-5 text-xs">
-      <a
-        class="block hover:text-slate-100"
-        href="mailto:michelvahonore@gmail.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Mail class="h-6 w-6" />
-      </a>
-    </li>
-  </ul>
+      <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
+        <li class="mr-5 text-xs">
+          <a
+            class="block hover:text-slate-100"
+            href="https://github.com/micho8cho93"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Github class="h-6 w-6" />
+          </a>
+        </li>
+        <li class="mr-5 text-xs">
+          <a
+            class="block hover:text-slate-100"
+            href="https://www.linkedin.com/in/michel-honore-95a08549/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Linkedin class="h-6 w-6" />
+          </a>
+        </li>
+        <li class="mr-5 text-xs">
+          <a
+            class="block hover:text-slate-100"
+            href="mailto:michelvahonore@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Mail class="h-6 w-6" />
+          </a>
+        </li>
+      </ul>
+    
+  </div>
 </header>
 
