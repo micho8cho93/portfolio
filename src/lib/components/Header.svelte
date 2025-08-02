@@ -256,7 +256,7 @@
       <ul class="ml-1 mt-8 flex items-center" aria-label="Social media">
         <li class="mr-5 text-xs">
           <a
-            class="block hover:text-slate-100"
+            class="block hover:text-teal-300"
             href="https://github.com/micho8cho93"
             target="_blank"
             rel="noreferrer"
@@ -266,7 +266,7 @@
         </li>
         <li class="mr-5 text-xs">
           <a
-            class="block hover:text-slate-100"
+            class="block hover:text-sky-300"
             href="https://www.linkedin.com/in/michel-honore-95a08549/"
             target="_blank"
             rel="noreferrer"
@@ -276,7 +276,7 @@
         </li>
         <li class="mr-5 text-xs">
           <a
-            class="block hover:text-slate-100"
+            class="block hover:text-pink-300"
             href="mailto:michelvahonore@gmail.com"
             target="_blank"
             rel="noreferrer"
