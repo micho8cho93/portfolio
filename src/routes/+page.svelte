@@ -4,6 +4,7 @@
   import About from "$lib/components/About.svelte";
   import Experience from "$lib/components/Experience.svelte";
   import Projects from "$lib/components/Projects.svelte";
+	import IntroAnimation from "$lib/components/IntroAnimation.svelte";
 
   let activeSection = "about";
 
@@ -35,13 +36,7 @@
 
 
 <div class="min-h-screen bg-indigo-950 text-slate-300">
-  <dotlottie-wc 
-  src="https://lottie.host/e17807d2-e628-4986-8a98-6043d39e97a6/J8KmsTE5H1.lottie" 
-  style="width: 150px; height: 150px; position: fixed" 
-  speed="1" 
-  autoplay 
-  loop
-  ></dotlottie-wc>
+  <IntroAnimation />
   <div
     class="mx-auto max-w-screen-xl px-6 py-12 font-mono md:px-12 md:py-20 lg:px-24 lg:py-0"
   >
