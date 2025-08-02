@@ -7,8 +7,9 @@
 
 
 <header
-  class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-around "
+  class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-around"
 >
+  
   <div>
     <h1 class="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
       Michel Honoré

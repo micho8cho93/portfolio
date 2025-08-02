@@ -29,10 +29,19 @@
 
 </script>
 
-
+<svelte:head>
+  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+</svelte:head>
 
 
 <div class="min-h-screen bg-indigo-950 text-slate-300">
+  <dotlottie-wc 
+  src="https://lottie.host/e17807d2-e628-4986-8a98-6043d39e97a6/J8KmsTE5H1.lottie" 
+  style="width: 150px; height: 150px; position: fixed" 
+  speed="1" 
+  autoplay 
+  loop
+  ></dotlottie-wc>
   <div
     class="mx-auto max-w-screen-xl px-6 py-12 font-mono md:px-12 md:py-20 lg:px-24 lg:py-0"
   >
