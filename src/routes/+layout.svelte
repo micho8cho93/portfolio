@@ -27,27 +27,24 @@
 	}
 </script>
 
-<!-- Animation container -->
-<div>
+<!-- Fullscreen overlay for animation and greeting -->
+<div
+	class="fixed inset-0 w-full h-full z-50 flex flex-col pointer-events-auto transition-opacity duration-500 bg-indigo-950"
+	class:opacity-0={showContent}
+	class:pointer-events-none={showContent}
+>
 	<!-- Top-left IntroAnimation -->
-	<div
-		class="fixed top-0 left-0 z-50 transition-opacity duration-500"
-		class:opacity-0={showContent}
-		class:pointer-events-none={showContent}
-	>
+	<div class="absolute top-0 left-0 p-4">
 		<IntroAnimation />
 	</div>
-	<!-- Centered Welcome message -->
-	<div
-		class="text-6xl font-bold font-mono fixed inset-0 z-20 flex items-center justify-center bg-indigo-950 transition-opacity duration-500"
-		class:opacity-0={showContent}
-		class:pointer-events-none={showContent}
-	>
-		{displayed}
+	<!-- Centered greeting -->
+	<div class="flex-1 flex items-center justify-center">
+		<span class="text-6xl font-bold font-mono text-center">{displayed}</span>
 	</div>
 </div>
-<!-- Main content -->
-<div class="main-content transition-opacity duration-500" class:opacity-100={showContent}>
+
+<!-- Main content, only visible after animation -->
+<div class="main-content transition-opacity duration-500" class:opacity-100={showContent} class:opacity-0={!showContent}>
 	<slot />
 </div>
 
