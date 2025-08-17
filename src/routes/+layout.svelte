@@ -16,7 +16,7 @@
 		typeWriter();
 		setTimeout(() => {
 			showContent = true;
-		}, 2500); // Adjust this duration to match your animation's length
+		}, 1200); // Adjust this duration to match your animation's length
 	});
 
 	function typeWriter(i = 0) {

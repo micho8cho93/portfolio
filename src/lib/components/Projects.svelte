@@ -120,17 +120,21 @@
             <h3>
               <a
                 class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-                href="https://micho8cho93.github.io/portfolio.v1/"
+                href="/videos/clai_recording.mp4"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="CLAI - Command Line AI assistant tool"
+                aria-label="CLAI command line ai project assistant tool"
               >
                 <span
                   class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
                 ></span>
                 <span>
-                  CLI AI Tool
+                  CLI AI Project Assistant
                   <ExternalLink
+                  on:click={() => {
+                showModal = true;
+                videoURL = "/videos/clai_recording.mp4";
+              }}
                     class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
                   />
                 </span>
@@ -149,35 +153,50 @@
                 <div
                   class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
                 >
-                  JavaScript
+                  Python
                 </div>
               </li>
               <li class="mr-1.5 mt-2">
                 <div
                   class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
                 >
-                  Tailwind/CSS
+                  Typer
                 </div>
               </li>
               <li class="mr-1.5 mt-2">
                 <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
                 >
-                  HTML
+                  Ollama
                 </div>
               </li>
             </ul>
           </div>
           <img
-            alt="Portfolio v1"
+            alt="Birthday Reminder Bot"
             loading="lazy"
             width="200"
-            height="48" 
+            height="48"
             decoding="async"
             class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src="/images/portfoliov1.png"
+            src="/images/clai.png"
           />
         </div>
+        {#if showModal}
+        <div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div class="bg-white rounded-lg p-4">
+            <video width="560" height="315" controls autoplay>
+              <source src={videoURL} type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <button
+              on:click={() => (showModal = false)}
+              class="mt-4 bg-teal-300 text-white px-4 py-2 rounded"
+              >Close</button
+            >
+          </div>
+        </div>
+      {/if}
       </li>
       <li class="mb-12">
         <div
