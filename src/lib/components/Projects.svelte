@@ -120,6 +120,76 @@
             <h3>
               <a
                 class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                href="https://micho8cho93.github.io/portfolio.v1/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="CLAI - Command Line AI assistant tool"
+              >
+                <span
+                  class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
+                ></span>
+                <span>
+                  CLI AI Tool
+                  <ExternalLink
+                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                  />
+                </span>
+              </a>
+            </h3>
+            <p class="text-slate-400 mt-2 text-sm leading-normal">
+              CLAI is an AI-powered terminal assistant that helps you 
+              understand and navigate codebases faster. It generates 
+              overviews of project structure with trees and graphs, produces 
+              concise summaries of source code, and monitors 
+              your codebase in real time for changes. Perfect for vibe coding and pair programming 
+              with AI agents.
+            </p>
+            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+              <li class="mr-1.5 mt-2">
+                <div
+                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                >
+                  JavaScript
+                </div>
+              </li>
+              <li class="mr-1.5 mt-2">
+                <div
+                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                >
+                  Tailwind/CSS
+                </div>
+              </li>
+              <li class="mr-1.5 mt-2">
+                <div
+                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
+                >
+                  HTML
+                </div>
+              </li>
+            </ul>
+          </div>
+          <img
+            alt="Portfolio v1"
+            loading="lazy"
+            width="200"
+            height="48" 
+            decoding="async"
+            class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+            src="/images/portfoliov1.png"
+          />
+        </div>
+      </li>
+      <li class="mb-12">
+        <div
+          class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50"
+        >
+          <div
+            class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+          ></div>
+          <div class="z-10 sm:order-2 sm:col-span-6">
+            <h3>
+              <a
+                class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
                 href="/videos/BirthdayBotVideo.mp4"
                 target="_blank"
                 rel="noreferrer"
@@ -223,7 +293,7 @@
                   class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
                 ></span>
                 <span>
-                  Portfolio v2
+                  Portfolio
                   <ExternalLink
                     class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
                   />
@@ -231,10 +301,9 @@
               </a>
             </h3>
             <p class="text-slate-400 mt-2 text-sm leading-normal">
-              Second version of my personal portfolio website.
-              Created with a focus on a clean and simple UI/UX design.
+              My personal portfolio website; created with a focus on a clean and simple UI/UX design.
               Built using Svelte and Tailwind CSS to familiarize myself 
-              with modern web development tools and frameworks.
+              with modern web development frontend tools and frameworks.
             </p>
             <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
               <li class="mr-1.5 mt-2">
@@ -349,74 +418,5 @@
       </li>
     </ul>
     <ul>
-      <li class="mb-12">
-        <div
-          class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50"
-        >
-          <div
-            class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
-          ></div>
-          <div class="z-10 sm:order-2 sm:col-span-6">
-            <h3>
-              <a
-                class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-                href="https://micho8cho93.github.io/portfolio.v1/"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Portfolio v1 (opens in a new tab)"
-              >
-                <span
-                  class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
-                ></span>
-                <span>
-                  Portfolio v1
-                  <ExternalLink
-                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                  />
-                </span>
-              </a>
-            </h3>
-            <p class="text-slate-400 mt-2 text-sm leading-normal">
-              The first version of my personal portfolio website.
-              Created to showcase my skills and projects.
-              Built using HTML, CSS, and JavaScript to learn 
-              the basics of web development.
-            </p>
-            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  JavaScript
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  Tailwind/CSS
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  HTML
-                </div>
-              </li>
-            </ul>
-          </div>
-          <img
-            alt="Portfolio v1"
-            loading="lazy"
-            width="200"
-            height="48" 
-            decoding="async"
-            class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src="/images/portfoliov1.png"
-          />
-        </div>
-      </li>
-    </ul>
   </div>
 </section>
