@@ -1,441 +1,426 @@
 <script lang="ts">
-  import { ExternalLink } from "lucide-svelte";
-  let showModal = false;
-  let videoURL = "";
-
+	import { ExternalLink } from 'lucide-svelte';
+	let showModal = false;
+	let videoURL = '';
 </script>
 
-<section
-  id="projects"
-  class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
->
-  <div
-    class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-indigo-950 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
-  >
-    <h2
-      class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only"
-    >
-      Projects
-    </h2>
-  </div>
-  <div>
-    <ul class="group/list">
-      <li class="mb-12">
-        <div
-          class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50"
-        >
-          <div
-            class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
-          ></div>
-          <div class="z-10 sm:order-2 sm:col-span-6">
-            <h3>
-              <a
-                class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-                href="https://soccersocial.up.railway.app/public/"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Soccer League Management App (opens in a new tab)"
-              >
-                <span
-                  class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
-                ></span>
-                <span>
-                  Soccer League Management App
-                  <ExternalLink
-                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                  />
-                </span>
-              </a>
-            </h3>
-            <p class="text-slate-400 mt-2 text-sm leading-normal">
-              A web app for managing soccer league data. View team standings,
-              player statistics, and match schedules. Create and manage teams,
-              players, and matches with ease. Built-in administration panel
-              for league organizers.
-            </p>
-            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  Python
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  Tailwind/CSS
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
-                >
-                  Django
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
-                >
-                  Gemini CLI
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
-                >
-                  Railway
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
-                >
-                  PostgreSQL
-                </div>
-              </li>
-            </ul>
-          </div>
-          <img
-            alt="Soccer League Management App"
-            loading="lazy"
-            width="200"
-            height="48"
-            decoding="async"
-            class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src="/images/soccer_social1.png"
-          />
-        </div>
-      </li>
-      <li class="mb-12">
-        <div
-          class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50"
-        >
-          <div
-            class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
-          ></div>
-          <div class="z-10 sm:order-2 sm:col-span-6">
-            <h3>
-              <a
-                class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-                href="/videos/clai_recording.mp4"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="CLAI command line ai project assistant tool"
-              >
-                <span
-                  class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
-                ></span>
-                <span>
-                  CLI AI Project Assistant
-                  <ExternalLink
-                  on:click={() => {
-                showModal = true;
-                videoURL = "/videos/clai_recording.mp4";
-              }}
-                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                  />
-                </span>
-              </a>
-            </h3>
-            <p class="text-slate-400 mt-2 text-sm leading-normal">
-              CLAI is an AI-powered terminal assistant that helps you 
-              understand and navigate codebases faster. It generates 
-              overviews of project structure with trees and graphs, produces 
-              concise summaries of source code, and monitors 
-              your codebase in real time for changes. Perfect for vibe coding and pair programming 
-              with AI agents.
-            </p>
-            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  Python
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  Typer
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
-                >
-                  Ollama
-                </div>
-              </li>
-            </ul>
-          </div>
-          <img
-            alt="Birthday Reminder Bot"
-            loading="lazy"
-            width="200"
-            height="48"
-            decoding="async"
-            class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src="/images/clai.png"
-          />
-        </div>
-        {#if showModal}
-        <div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-          <div class="bg-white rounded-lg p-4">
-            <video width="560" height="315" controls autoplay>
-              <source src={videoURL} type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            <button
-              on:click={() => (showModal = false)}
-              class="mt-4 bg-teal-300 text-white px-4 py-2 rounded"
-              >Close</button
-            >
-          </div>
-        </div>
-      {/if}
-      </li>
-      <li class="mb-12">
-        <div
-          class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50"
-        >
-          <div
-            class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
-          ></div>
-          <div class="z-10 sm:order-2 sm:col-span-6">
-            <h3>
-              <a
-                class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-                href="/videos/BirthdayBotVideo.mp4"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Birthday Reminder Bot (opens in a new tab)"
-              >
-                <span
-                  class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
-                ></span>
-                <span>
-                  Birthday Reminder Bot
-                  <ExternalLink
-                  on:click={() => {
-                showModal = true;
-                videoURL = "/videos/BirthdayBotVideo.mp4";
-              }}
-                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                  />
-                </span>
-              </a>
-            </h3>
-            <p class="text-slate-400 mt-2 text-sm leading-normal">
-              An automated birthday reminder bot for whatsapp and email. 
-              Users can store birthdays and receive reminders via email.
-              Each email contains a link that opens Whatsapp Web with your
-              pre-written birthday message ready to send. 
-            </p>
-            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  Python
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
-                >
-                  Streamlit
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
-                >
-                  Crontab
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
-                >
-                  SQLite
-                </div>
-              </li>
-            </ul>
-          </div>
-          <img
-            alt="Birthday Reminder Bot"
-            loading="lazy"
-            width="200"
-            height="48"
-            decoding="async"
-            class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src="/images/birthday_bot.png"
-          />
-        </div>
-        {#if showModal}
-        <div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-          <div class="bg-white rounded-lg p-4">
-            <video width="560" height="315" controls autoplay>
-              <source src={videoURL} type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            <button
-              on:click={() => (showModal = false)}
-              class="mt-4 bg-teal-300 text-white px-4 py-2 rounded"
-              >Close</button
-            >
-          </div>
-        </div>
-      {/if}
-      </li>
-      <li class="mb-12">
-        <div
-          class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50"
-        >
-          <div
-            class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
-          ></div>
-          <div class="z-10 sm:order-2 sm:col-span-6">
-            <h3>
-              <a
-                class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-                href="https://portfolio-gamma-lyart-95.vercel.app"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Portfolio v2 (opens in a new tab)"
-              >
-                <span
-                  class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
-                ></span>
-                <span>
-                  Portfolio
-                  <ExternalLink
-                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                  />
-                </span>
-              </a>
-            </h3>
-            <p class="text-slate-400 mt-2 text-sm leading-normal">
-              My personal portfolio website; created with a focus on a clean and simple UI/UX design.
-              Built using Svelte and Tailwind CSS to familiarize myself 
-              with modern web development frontend tools and frameworks.
-            </p>
-            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  Svelte
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  Tailwind/CSS
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  Sveltekit
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
-                >
-                  Vercel
-                </div>
-              </li>
-            </ul>
-          </div>
-          <img
-            alt="Portfolio v2"
-            loading="lazy"
-            width="200"
-            height="48"
-            decoding="async"
-            class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src="/images/portfoliov2.png"
-          />
-        </div>
-      </li>
-      <li class="mb-12">
-        <div
-          class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50"
-        >
-          <div
-            class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
-          ></div>
-          <div class="z-10 sm:order-2 sm:col-span-6">
-            <h3>
-              <a
-                class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
-                href="https://github.com/micho8cho93/Python-Course"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Python Course (opens in a new tab)"
-              >
-                <span
-                  class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
-                ></span>
-                <span>
-                  Python Course
-                  <ExternalLink
-                    class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                  />
-                </span>
-              </a>
-            </h3>
-            <p class="text-slate-400 mt-2 text-sm leading-normal">
-              An Introduction to Python course designed for High School students.
-              The course covers the fundamentals such as variables, statements,
-              loops, functions, strings, and lists. Each unit ends with a mini-project
-              to apply multiple concepts. The course culminates in a final project 
-              where students create a GUI application.
-            </p>
-            <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300"
-                >
-                  Python
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
-                >
-                  Github
-                </div>
-              </li>
-              <li class="mr-1.5 mt-2">
-                <div
-                  class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-300"
-                >
-                  Streamlit
-                </div>
-              </li>
-            </ul>
-          </div>
-          <img
-            alt="Python Course"
-            loading="lazy"
-            width="200"
-            height="48" 
-            decoding="async"
-            class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src="/images/python-course.png"
-          />
-        </div>
-      </li>
-    </ul>
-    <ul>
-  </div>
+<section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+	<div
+		class="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-indigo-950 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+	>
+		<h2 class="text-sm font-bold tracking-widest text-slate-200 uppercase lg:sr-only">Projects</h2>
+	</div>
+	<div>
+		<ul class="group/list">
+			<li class="mb-12">
+				<div
+					class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:group-hover/list:opacity-50 lg:hover:!opacity-100"
+				>
+					<div
+						class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+					></div>
+					<div class="z-10 sm:order-2 sm:col-span-6">
+						<h3>
+							<a
+								class="group/link inline-flex items-baseline text-base leading-tight font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+								href="https://soccersocial.up.railway.app/public/"
+								target="_blank"
+								rel="noreferrer"
+								aria-label="Soccer League Management App (opens in a new tab)"
+							>
+								<span
+									class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
+								></span>
+								<span>
+									Soccer League Management App
+									<ExternalLink
+										class="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 group-focus-visible/link:translate-x-1 group-focus-visible/link:-translate-y-1 motion-reduce:transition-none"
+									/>
+								</span>
+							</a>
+						</h3>
+						<p class="mt-2 text-sm leading-normal text-slate-400">
+							A web app for managing soccer league data. View team standings, player statistics, and
+							match schedules. Create and manage teams, players, and matches with ease. Built-in
+							administration panel for league organizers.
+						</p>
+						<ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 font-medium text-teal-300"
+								>
+									Python
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 font-medium text-teal-300"
+								>
+									Tailwind/CSS
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs leading-5 font-medium text-blue-300"
+								>
+									Django
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs leading-5 font-medium text-blue-300"
+								>
+									Gemini CLI
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs leading-5 font-medium text-blue-300"
+								>
+									Railway
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs leading-5 font-medium text-blue-300"
+								>
+									PostgreSQL
+								</div>
+							</li>
+						</ul>
+					</div>
+					<img
+						alt="Soccer League Management App"
+						loading="lazy"
+						width="200"
+						height="48"
+						decoding="async"
+						class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+						src="/images/soccer_social1.png"
+					/>
+				</div>
+			</li>
+			<li class="mb-12">
+				<div
+					class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:group-hover/list:opacity-50 lg:hover:!opacity-100"
+				>
+					<div
+						class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+					></div>
+					<div class="z-10 sm:order-2 sm:col-span-6">
+						<h3>
+							<a
+								class="group/link inline-flex items-baseline text-base leading-tight font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+								href="/videos/clai_recording.mp4"
+								target="_blank"
+								rel="noreferrer"
+								aria-label="CLAI command line ai project assistant tool"
+							>
+								<span
+									class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
+								></span>
+								<span>
+									CLI AI Project Assistant
+									<ExternalLink
+										on:click={() => {
+											showModal = true;
+											videoURL = '/videos/clai_recording.mp4';
+										}}
+										class="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 group-focus-visible/link:translate-x-1 group-focus-visible/link:-translate-y-1 motion-reduce:transition-none"
+									/>
+								</span>
+							</a>
+						</h3>
+						<p class="mt-2 text-sm leading-normal text-slate-400">
+							CLAI is an AI-powered terminal assistant that helps you understand and navigate
+							codebases faster. It generates overviews of project structure with trees and graphs,
+							produces concise summaries of source code, and monitors your codebase in real time for
+							changes. Perfect for vibe coding and pair programming with AI agents.
+						</p>
+						<ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 font-medium text-teal-300"
+								>
+									Python
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 font-medium text-teal-300"
+								>
+									Typer
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs leading-5 font-medium text-blue-300"
+								>
+									Ollama
+								</div>
+							</li>
+						</ul>
+					</div>
+					<img
+						alt="Birthday Reminder Bot"
+						loading="lazy"
+						width="200"
+						height="48"
+						decoding="async"
+						class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+						src="/images/clai.png"
+					/>
+				</div>
+				{#if showModal}
+					<div class="bg-opacity-50 fixed inset-0 z-50 flex items-center justify-center bg-black">
+						<div class="rounded-lg bg-white p-4">
+							<video width="560" height="315" controls autoplay>
+								<source src={videoURL} type="video/mp4" />
+								Your browser does not support the video tag.
+							</video>
+							<button
+								on:click={() => (showModal = false)}
+								class="mt-4 rounded bg-teal-300 px-4 py-2 text-white">Close</button
+							>
+						</div>
+					</div>
+				{/if}
+			</li>
+			<li class="mb-12">
+				<div
+					class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:group-hover/list:opacity-50 lg:hover:!opacity-100"
+				>
+					<div
+						class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+					></div>
+					<div class="z-10 sm:order-2 sm:col-span-6">
+						<h3>
+							<a
+								class="group/link inline-flex items-baseline text-base leading-tight font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+								href="/videos/BirthdayBotVideo.mp4"
+								target="_blank"
+								rel="noreferrer"
+								aria-label="Birthday Reminder Bot (opens in a new tab)"
+							>
+								<span
+									class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
+								></span>
+								<span>
+									Birthday Reminder Bot
+									<ExternalLink
+										on:click={() => {
+											showModal = true;
+											videoURL = '/videos/BirthdayBotVideo.mp4';
+										}}
+										class="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 group-focus-visible/link:translate-x-1 group-focus-visible/link:-translate-y-1 motion-reduce:transition-none"
+									/>
+								</span>
+							</a>
+						</h3>
+						<p class="mt-2 text-sm leading-normal text-slate-400">
+							An automated birthday reminder bot for whatsapp and email. Users can store birthdays
+							and receive reminders via email. Each email contains a link that opens Whatsapp Web
+							with your pre-written birthday message ready to send.
+						</p>
+						<ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 font-medium text-teal-300"
+								>
+									Python
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs leading-5 font-medium text-blue-300"
+								>
+									Streamlit
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs leading-5 font-medium text-blue-300"
+								>
+									Crontab
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs leading-5 font-medium text-blue-300"
+								>
+									SQLite
+								</div>
+							</li>
+						</ul>
+					</div>
+					<img
+						alt="Birthday Reminder Bot"
+						loading="lazy"
+						width="200"
+						height="48"
+						decoding="async"
+						class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+						src="/images/birthday_bot.png"
+					/>
+				</div>
+				{#if showModal}
+					<div class="bg-opacity-50 fixed inset-0 z-50 flex items-center justify-center bg-black">
+						<div class="rounded-lg bg-white p-4">
+							<video width="560" height="315" controls autoplay>
+								<source src={videoURL} type="video/mp4" />
+								Your browser does not support the video tag.
+							</video>
+							<button
+								on:click={() => (showModal = false)}
+								class="mt-4 rounded bg-teal-300 px-4 py-2 text-white">Close</button
+							>
+						</div>
+					</div>
+				{/if}
+			</li>
+			<li class="mb-12">
+				<div
+					class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:group-hover/list:opacity-50 lg:hover:!opacity-100"
+				>
+					<div
+						class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+					></div>
+					<div class="z-10 sm:order-2 sm:col-span-6">
+						<h3>
+							<a
+								class="group/link inline-flex items-baseline text-base leading-tight font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+								href="https://portfolio-gamma-lyart-95.vercel.app"
+								target="_blank"
+								rel="noreferrer"
+								aria-label="Portfolio v2 (opens in a new tab)"
+							>
+								<span
+									class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
+								></span>
+								<span>
+									Portfolio
+									<ExternalLink
+										class="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 group-focus-visible/link:translate-x-1 group-focus-visible/link:-translate-y-1 motion-reduce:transition-none"
+									/>
+								</span>
+							</a>
+						</h3>
+						<p class="mt-2 text-sm leading-normal text-slate-400">
+							My personal portfolio website; created with a focus on a clean and simple UI/UX
+							design. Built using Svelte and Tailwind CSS to familiarize myself with modern web
+							development frontend tools and frameworks.
+						</p>
+						<ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 font-medium text-teal-300"
+								>
+									Svelte
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 font-medium text-teal-300"
+								>
+									Tailwind/CSS
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 font-medium text-teal-300"
+								>
+									Sveltekit
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs leading-5 font-medium text-blue-300"
+								>
+									Vercel
+								</div>
+							</li>
+						</ul>
+					</div>
+					<img
+						alt="Portfolio v2"
+						loading="lazy"
+						width="200"
+						height="48"
+						decoding="async"
+						class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+						src="/images/portfoliov2.png"
+					/>
+				</div>
+			</li>
+			<li class="mb-12">
+				<div
+					class="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:group-hover/list:opacity-50 lg:hover:!opacity-100"
+				>
+					<div
+						class="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"
+					></div>
+					<div class="z-10 sm:order-2 sm:col-span-6">
+						<h3>
+							<a
+								class="group/link inline-flex items-baseline text-base leading-tight font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+								href="https://github.com/micho8cho93/Python-Course"
+								target="_blank"
+								rel="noreferrer"
+								aria-label="Python Course (opens in a new tab)"
+							>
+								<span
+									class="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"
+								></span>
+								<span>
+									Python Course
+									<ExternalLink
+										class="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 group-focus-visible/link:translate-x-1 group-focus-visible/link:-translate-y-1 motion-reduce:transition-none"
+									/>
+								</span>
+							</a>
+						</h3>
+						<p class="mt-2 text-sm leading-normal text-slate-400">
+							An Introduction to Python course designed for High School students. The course covers
+							the fundamentals such as variables, statements, loops, functions, strings, and lists.
+							Each unit ends with a mini-project to apply multiple concepts. The course culminates
+							in a final project where students create a GUI application.
+						</p>
+						<ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs leading-5 font-medium text-teal-300"
+								>
+									Python
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs leading-5 font-medium text-blue-300"
+								>
+									Github
+								</div>
+							</li>
+							<li class="mt-2 mr-1.5">
+								<div
+									class="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs leading-5 font-medium text-blue-300"
+								>
+									Streamlit
+								</div>
+							</li>
+						</ul>
+					</div>
+					<img
+						alt="Python Course"
+						loading="lazy"
+						width="200"
+						height="48"
+						decoding="async"
+						class="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+						src="/images/python-course.png"
+					/>
+				</div>
+			</li>
+		</ul>
+		<ul></ul>
+	</div>
 </section>
